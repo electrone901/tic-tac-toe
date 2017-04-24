@@ -1,0 +1,143 @@
+
+/*DISABLE ONCE IS CHECK*/
+#tic-tac-toe .disable {
+	text-transform:uppercase; 
+	font-size:30px; 
+	font-family:Georgia, Times, serif
+}
+
+.span3 {
+    width: 220px;
+}
+
+#tic-tac-toe #game li {
+	float:left; 
+	padding:17px; 
+	list-style:none; 
+	text-align:center; 
+	margin-bottom:-20px; 
+	color:red; 
+	height:60px; 
+	line-height:60px; 
+	font-size:40px; 
+	color:#ccc;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+
+
+/*APPEND NUM OF WINS TO HTML*/
+.input-append .win_times {
+    background: #fff;
+    width: 101px;
+}
+
+
+/*DISABLE ONCE IS CHECK*/
+#tic-tac-toe #game li.disable {
+    color: black;
+    background-color: aliceblue;
+}
+
+#tic-tac-toe #game {
+	float:left; 
+	padding:0; 
+	clear:both;
+}
+
+.new_span {
+	width:226px;
+}
+
+
+#tic-tac-toe #reset {
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+    width: 204px;
+    background-color: #75ed38;
+}
+
+.input-prepend span.pre_text {
+	width:55px;
+}
+
+.input-prepend .span1 {
+	width:93px;
+}
+
+.input-prepend {
+	margin-bottom:10px;
+}
+
+
+#tic-tac-toe h1 {
+	text-align:center; 
+	font-size:28px;
+}
+
+
+#tic-tac-toe {
+	width:220px; 
+	margin:0 auto;
+}
+
+.input-prepend.input-append .add-on:first-child, .input-prepend.input-append .btn:first-child {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+
+}
+
+.input-prepend .add-on:first-child, .input-prepend .btn:first-child {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.input-append .add-on, .input-append .btn, .input-append .btn-group {
+    margin-left: -1px;
+}
+
+.input-prepend .add-on, .input-prepend .btn {
+    margin-right: -1px;
+}
+
+.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group > .dropdown-toggle, .input-prepend .btn-group > .dropdown-toggle {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+    display: inline-block;
+    width: auto;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ffffff;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+}
+
+.input-append .win_times {
+    background: #fff;
+    width: 90px;
+}
+
+
+.input-append .win_text {
+	width:50px;
+}
+
+
