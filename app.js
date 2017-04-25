@@ -125,6 +125,13 @@ $(document).ready(function() {
   });
 });
 
+nyc.js.org
+Go to the page and download the program. 
+After you have successfully download unzipped.
+Open the folder, locate the index.html file and  do a right click on it  and open select open with Google Chrome or  drag and drop the index.html file to Google Chrome. Chrome will render the Tic Tac Toe game. Now you can play and enjoy.
+
+
+
 
 
 
