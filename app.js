@@ -72,7 +72,7 @@ $(document).ready(function() {
 	  $(this).text(o)
     $(this).addClass('disable o btn-primary')
 	  
-
+     // CHECK 'o' FOR WINNER
 	  if (
 	  	$("#one").hasClass('o') && $("#two").hasClass('o') && $("#three").hasClass('o') || 
 	  	$("#four").hasClass('o') && $("#five").hasClass('o') && $("#six").hasClass('o') || 
@@ -82,7 +82,7 @@ $(document).ready(function() {
 	  	$("#three").hasClass('o') && $("#six").hasClass('o') && $("#nine").hasClass('o') || 
 	  	$("#one").hasClass('o') && $("#five").hasClass('o') && $("#nine").hasClass('o') || 
 	  	$("#three").hasClass('o') && $("#five").hasClass('o') && $("#seven").hasClass('o')
-	  ) {
+	  ) { //IF TRUE 'o' WINNER ALERT, RESET MOVES COUNT, ADD O_WINS +1 & WRITE
 		  	alert('O wins')
 			  count = 0
 			  o_win++
@@ -92,11 +92,12 @@ $(document).ready(function() {
   
 
   else  {
+  	// ELSE INCREMENT MOVE COUNT, X TURN & ADD CLASS TO SQUARE = 'disable x'
   	count++
     $(this).text(x)
     $(this).addClass('disable x')
 	  
-
+    // CHECK 'X' FOR WINNER
 	  if (
 	  	$("#one").hasClass('x') && $("#two").hasClass('x') && $("#three").hasClass('x') || 
 	  	$("#four").hasClass('x') && $("#five").hasClass('x') && $("#six").hasClass('x') || 
@@ -106,7 +107,7 @@ $(document).ready(function() {
 	  	$("#three").hasClass('x') && $("#six").hasClass('x') && $("#nine").hasClass('x') || 
 	  	$("#one").hasClass('x') && $("#five").hasClass('x') && $("#nine").hasClass('x') || 
 	  	$("#three").hasClass('x') && $("#five").hasClass('x') && $("#seven").hasClass('x')
-	  ) {
+	  ) { //IF TRUE 'x' WINNER ALERT, RESET MOVES COUNT, ADD x_WINS +1 & WRITE
 	  		alert('X wins')
 			  count = 0
 				x_win++
@@ -125,10 +126,6 @@ $(document).ready(function() {
   });
 });
 
-nyc.js.org
-Go to the page and download the program. 
-After you have successfully download unzipped.
-Open the folder, locate the index.html file and  do a right click on it  and open select open with Google Chrome or  drag and drop the index.html file to Google Chrome. Chrome will render the Tic Tac Toe game. Now you can play and enjoy.
 
 
 
